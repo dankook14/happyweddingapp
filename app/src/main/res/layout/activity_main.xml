@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.disney.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic2"
+        android:scaleType="centerCrop"
+        android:id="@+id/pic2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Congratulations\non your wedding!"
+        android:textSize="36sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_margin="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#F44336"
+        android:layout_margin="20sp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nick"
+        android:textSize="36sp"
+
+        android:layout_toLeftOf="@id/textView2"
+        android:fontFamily="sans-serif-light"
+
+        android:textColor="#FF6F00"
+        android:layout_margin="20sp"
+        android:id="@+id/textView" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judy"
+        android:textSize="36sp"
+
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/textView2"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#D500F9"
+        android:layout_margin="20sp"
+        android:id="@+id/textView3" />
+
+
+
+
+</RelativeLayout>
+
